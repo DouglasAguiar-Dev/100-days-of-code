@@ -43,5 +43,5 @@ Output:
 2. Run the file:
 
    ```
-   python band_name_generator.py.
+   python main.py.
    ```
