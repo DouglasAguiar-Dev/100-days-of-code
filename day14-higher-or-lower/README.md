@@ -1,43 +1,38 @@
-# 🎯 Number Guessing Game
+# 🎮 Higher or Lower Game
 
-A simple command-line **Number Guessing Game** built with Python as part of the **100 Days of Code: The Complete Python Pro Bootcamp** by Angela Yu.
+A simple command-line Python game where you compare two public figures, brands, or organizations and guess which one has more social media followers.
 
-The objective is simple: the computer randomly chooses a number between **1 and 100**, and your mission is to guess it before you run out of attempts.
+This project was built as part of **Day 14** of the **100 Days of Code: The Complete Python Pro Bootcamp** by Angela Yu.
 
 ---
 
-## 📖 Features
+## ✨ Features
 
-* 🎲 Randomly generates a number between **1 and 100**
-* ⚡ Two difficulty levels:
-
-  * **Easy** – 10 attempts
-  * **Hard** – 5 attempts
-* 📈 Provides feedback after every guess:
-
-  * Too high
-  * Too low
-* 🔄 Play again option after each game
-* 🧩 Uses functions to keep the code organized and reusable
-* 📝 Includes docstrings for better code readability
+* 🎲 Randomly selects two accounts from a dataset.
+* 👤 Displays each account's name, description, and country.
+* 🤔 Lets the player guess which account has more followers.
+* 📈 Keeps track of the player's score.
+* 🔁 Continues until the player makes an incorrect guess.
+* 🖥️ Clears the terminal between rounds for a cleaner game experience.
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python 3
-* `random` module
-* Custom ASCII art (`art.py`)
+* 🐍 Python 3
+* 🎲 `random`
+* 💻 `os`
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-number-guessing-game/
+higher-lower-game/
 │
 ├── main.py          # Main game logic
-├── art.py           # ASCII logo
+├── art.py           # ASCII art (logo and VS graphic)
+├── game_data.py     # Dataset containing account information
 └── README.md
 ```
 
@@ -45,19 +40,19 @@ number-guessing-game/
 
 ## 🚀 How to Run
 
-1. Clone this repository:
+1. Clone this repository.
 
 ```bash
-git clone https://github.com/DouglasAguiar-Dev/100-Days-of-Code-The-Complete-Python-Pro-Bootcamp.git
+git clone https://github.com/your-username/your-repository.git
 ```
 
-2. Navigate to the project folder:
+2. Navigate to the project folder.
 
 ```bash
-cd "Day 12"
+cd your-repository
 ```
 
-3. Run the game:
+3. Run the game.
 
 ```bash
 python main.py
@@ -65,94 +60,39 @@ python main.py
 
 ---
 
-## 🎮 How to Play
+## 🎯 Gameplay
 
-1. Launch the game.
-2. Choose a difficulty:
-
-   * `easy`
-   * `hard`
-3. Enter a number between **1** and **100**.
-4. Read the feedback:
-
-   * **Too high**
-   * **Too low**
-5. Keep guessing until:
-
-   * You find the correct number.
-   * You run out of attempts.
-6. Choose whether to play another round.
-
----
-
-## 📚 Concepts Practiced
-
-This project helped reinforce several important Python concepts:
-
-* Functions
-* Parameters and return values
-* Docstrings
-* Local variables
-* Constants
-* Conditional statements (`if`, `elif`, `else`)
-* While loops
-* User input validation
-* Random number generation
-* Game loop design
-* Code organization and readability
-
----
-
-## 📸 Example Gameplay
+The game displays two accounts:
 
 ```text
-Welcome to the Number Guessing Game!
-
-I'm thinking of a number between 1 and 100.
-
-Choose a difficulty:
-Easy or Hard
-
-You have 10 attempts remaining.
-
-Make a guess: 50
-
-Too low.
-
-You have 9 attempts remaining.
-
-Make a guess: 75
-
-Too high.
-
-...
-
-You guessed the number!
-Congratulations!
-The number was 67.
+Compare A: Person A
+VS
+Against B: Person B
 ```
 
----
+Type:
 
-## 🎯 Future Improvements
+* 🅰️ `A` if you think Account **A** has more followers.
+* 🅱️ `B` if you think Account **B** has more followers.
 
-Some features that could be added in future versions:
-
-* Input validation for non-numeric values
-* Difficulty selection menu
-* Score tracking
-* High score system
-* Hint system
-* Multiple game modes
-* Graphical interface using Tkinter or Pygame
-* Unit tests
+Each correct answer increases your score by **1 point**. The game ends when you make an incorrect guess.
 
 ---
 
-## 👨‍💻 Author
+## 📚 What I Practiced
 
-**Douglas Aguiar**
+* 🧩 Functions
+* 📖 Dictionaries
+* 📋 Lists
+* 🔄 `while` loops
+* ✅ Conditional statements (`if`)
+* 🎲 Random selection
+* 📦 Variable scope
+* 🧠 Basic game logic
+* 📁 Working with external Python modules
 
-GitHub: **DouglasAguiar-Dev**
+---
 
-Part of my **100 Days of Code** journey, documenting my progress while learning Python and software development.
+## 🙏 Acknowledgements
+
+This project is based on the **Higher or Lower** challenge from **100 Days of Code: The Complete Python Pro Bootcamp** by Angela Yu.
