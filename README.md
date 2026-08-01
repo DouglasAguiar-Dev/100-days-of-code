@@ -12,11 +12,11 @@ This repository is more than a collection of exercises—it's a public record of
 
 ## 📈 Progress
 
-- ✅ Completed: **18 / 100 days**
+- ✅ Completed: **19 / 100 days**
 - 🐍 Language: **Python**
 - 💻 IDE: **VScode**
 - 📚 Course: **100 Days of Code – Dr. Angela Yu**
-- 🚀 Current focus: **Object-Oriented Programming and software architecture**
+- 🚀 Current focus: **Object-Oriented Programming, graphics, and software architecture**
 
 ---
 
@@ -43,7 +43,8 @@ This repository is more than a collection of exercises—it's a public record of
 │   ├── day15-coffee-machine
 │   ├── day16-oop-coffee-machine
 │   ├── day17-quiz
-│   └── day18-hirst-painting
+│   ├── day18-hirst-painting
+│   └── day19-turtle-race
 │
 ├── .gitignore
 └── README.md
@@ -63,8 +64,10 @@ Projects are organized by difficulty level to reflect my growth throughout the b
 - Lists, dictionaries, and tuples
 - Object-Oriented Programming (OOP)
 - Modules and packages
+- Turtle graphics
+- Event handling
+- Randomization and simulations
 - Debugging and problem-solving
-- Game logic
 - Code refactoring
 - Git and GitHub workflow
 - Project organization
@@ -74,7 +77,7 @@ Projects are organized by difficulty level to reflect my growth throughout the b
 ## 📚 Featured Projects
 
 | Day | Project | Main Concepts |
-|:---:|---|---|
+| :---: | --- | --- |
 | 10 | Calculator | Functions and logic |
 | 11 | Blackjack | Conditionals and game logic |
 | 12 | Number Guessing Game | Loops and randomness |
@@ -83,6 +86,7 @@ Projects are organized by difficulty level to reflect my growth throughout the b
 | 16 | OOP Coffee Machine | Classes and objects |
 | 17 | Quiz Game | OOP and file organization |
 | 18 | Hirst Painting | Turtle graphics and external libraries |
+| 19 | Turtle Race | Turtle graphics, loops, randomness, user input |
 
 ---
 
