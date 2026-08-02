@@ -2,21 +2,30 @@
 
 Welcome to my **100 Days of Code** repository! 🚀
 
-My name is **Douglas Aguiar**, and this repository documents my journey learning Python through **100 Days of Code: The Complete Python Pro Bootcamp** by Dr. Angela Yu.
+Hi, I'm **Douglas Aguiar**, a self-taught developer currently following **100 Days of Code: The Complete Python Pro Bootcamp** by Dr. Angela Yu.
 
-Here, you'll find all the projects I've built, from my very first lines of code to more advanced applications involving object-oriented programming, game logic, and software design principles.
+This repository documents my journey from beginner to developer through daily projects, challenges, mistakes, and improvements. Here, you'll find everything from simple console applications to more advanced projects involving object-oriented programming, game development, and software design principles.
 
-This repository is more than a collection of exercises—it's a public record of my progress, mistakes, improvements, and growth as a future software developer.
+This is more than a collection of exercises—it's a public record of my progress, consistency, and growth as a future software engineer.
 
 ---
 
-## 📈 Progress
+# 📈 Progress
 
-- ✅ Completed: **19 / 100 days**
-- 🐍 Language: **Python**
-- 💻 IDE: **VScode**
+- ✅ Completed: **21 / 100 days**
+- 🐍 Main language: **Python**
+- 💻 IDE: **Visual Studio Code (VS Code)**
 - 📚 Course: **100 Days of Code – Dr. Angela Yu**
-- 🚀 Current focus: **Object-Oriented Programming, graphics, and software architecture**
+- 🚀 Current focus: **Object-Oriented Programming, game development, and software architecture**
+
+---
+
+# 🖥️ Development Environment
+
+- Editor: Visual Studio Code
+- Language: Python 3
+- Version Control: Git & GitHub
+- Operating System: Windows 11
 
 ---
 
@@ -44,7 +53,9 @@ This repository is more than a collection of exercises—it's a public record of
 │   ├── day16-oop-coffee-machine
 │   ├── day17-quiz
 │   ├── day18-hirst-painting
-│   └── day19-turtle-race
+│   ├── day19-turtle-race
+│   ├── day20-snake-game
+│   └── day21-snake-game
 │
 ├── .gitignore
 └── README.md
@@ -54,43 +65,91 @@ Projects are organized by difficulty level to reflect my growth throughout the b
 
 ---
 
-## 🛠️ Skills I'm Developing
+# 🛠️ Skills I'm Developing
 
-- Python fundamentals
+## Python Fundamentals
+
 - Variables and data types
-- Functions and parameters
+- Strings and numbers
 - Conditional statements
 - Loops and iteration
+- Functions and parameters
 - Lists, dictionaries, and tuples
-- Object-Oriented Programming (OOP)
-- Modules and packages
+
+## Object-Oriented Programming
+
+- Classes and objects
+- Attributes and methods
+- Inheritance
+- Encapsulation
+- Project organization
+
+## Game Development
+
 - Turtle graphics
-- Event handling
-- Randomization and simulations
+- Event listeners
+- Game loops
+- Collision detection
+- Random number generation
+- Animation and screen updates
+
+## Software Development
+
 - Debugging and problem-solving
 - Code refactoring
 - Git and GitHub workflow
-- Project organization
+- File organization
+- Clean code principles
 
 ---
 
-## 📚 Featured Projects
+# 📚 Featured Projects
 
 | Day | Project | Main Concepts |
 | :---: | --- | --- |
 | 10 | Calculator | Functions and logic |
-| 11 | Blackjack | Conditionals and game logic |
+| 11 | Blackjack | Game logic and conditionals |
 | 12 | Number Guessing Game | Loops and randomness |
 | 14 | Higher or Lower | Dictionaries and functions |
 | 15 | Coffee Machine | State management |
 | 16 | OOP Coffee Machine | Classes and objects |
 | 17 | Quiz Game | OOP and file organization |
-| 18 | Hirst Painting | Turtle graphics and external libraries |
-| 19 | Turtle Race | Turtle graphics, loops, randomness, user input |
+| 18 | Hirst Painting | Turtle graphics and modules |
+| 19 | Turtle Race | User input, loops, randomness |
+| 20 | Snake Game (Part 1) | Movement and OOP |
+| 21 | Snake Game (Part 2) | Inheritance and collision detection |
 
 ---
 
-## 🎯 Goals
+# 🧠 Latest Concepts Learned
+
+## Day 19 – Turtle Race
+
+- Turtle graphics
+- User input
+- Event handling
+- Randomization
+- Loops
+
+## Day 20 – Snake Game
+
+- Classes and objects
+- Game loops
+- Screen updates
+- Animation
+- Modular code organization
+
+## Day 21 – Snake Game
+
+- Inheritance
+- Collision detection
+- Event listeners
+- Project architecture
+- Object-oriented programming
+
+---
+
+# 🎯 Goals
 
 Through this challenge, I aim to:
 
@@ -104,17 +163,17 @@ Through this challenge, I aim to:
 
 ---
 
-## 💡 Why I'm Doing This
+# 💡 Why I'm Doing This
 
 Learning to code isn't just about memorizing syntax—it's about learning how to think.
 
-Every project in this repository represents a small step forward. Some of my early code may be simple, and one day I'll probably look back at it and laugh, but that's exactly why I'm keeping everything here: to remember where I started and to appreciate how much I've improved.
+Every project in this repository represents a step forward. Some of my early code may be simple, and one day I'll probably look back at it and laugh, but that's exactly why I'm keeping everything here: to remember where I started and appreciate how much I've improved.
 
 Progress matters more than perfection.
 
 ---
 
-## 📚 Course Credit
+# 📚 Course Credit
 
 This repository is based on **100 Days of Code: The Complete Python Pro Bootcamp** by **Dr. Angela Yu**.
 
@@ -122,10 +181,10 @@ All projects are part of my personal learning journey and are intended for educa
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Douglas Aguiar**
 
-- GitHub: [DouglasAguiar-Dev](https://github.com/DouglasAguiar-Dev)
+- GitHub: https://github.com/DouglasAguiar-Dev
 
 ⭐ Feel free to explore the projects and follow my progress!
