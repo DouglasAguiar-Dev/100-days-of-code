@@ -2,7 +2,7 @@
 
 A classic Snake game built with Python and the Turtle module as part of the **100 Days of Code** challenge.
 
-The objective is simple: control the snake, eat the food, grow as much as possible, and avoid colliding with the walls or your own body.
+The objective is simple: control the snake, eat the food, grow as much as possible, and avoid colliding with the walls or your own body. The game also includes a **high-score system** that saves your best score between sessions.
 
 ---
 
@@ -10,18 +10,20 @@ The objective is simple: control the snake, eat the food, grow as much as possib
 
 - Snake movement using the arrow keys
 - Random food generation
-- Score tracking
+- Score tracking system
+- Persistent high-score system
 - Snake growth after eating food
 - Collision detection with walls
 - Collision detection with the snake's own body
-- Game over screen
+- Automatic game reset after collisions
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Python 3
-- Turtle
+- Turtle module
+- File handling
 - Object-Oriented Programming (OOP)
 
 ---
@@ -35,6 +37,7 @@ day21-snake-game/
 ├── snake.py
 ├── food.py
 ├── score.py
+├── data.txt
 ├── README.md
 └── .gitignore
 ```
@@ -52,7 +55,7 @@ git clone https://github.com/DouglasAguiar-Dev/100-days-of-code.git
 Navigate to the project folder:
 
 ```bash
-cd intermediate/day20-snake-game
+cd intermediate/day21-snake-game
 ```
 
 Run the game:
@@ -63,16 +66,28 @@ python main.py
 
 ---
 
+## 🎮 Controls
+
+| Key | Action |
+| :--- | :--- |
+| ⬆️ Up Arrow | Move up |
+| ⬇️ Down Arrow | Move down |
+| ⬅️ Left Arrow | Move left |
+| ➡️ Right Arrow | Move right |
+
+---
+
 ## 🧠 Concepts Practiced
 
 - Classes and objects
 - Inheritance
-- Event listeners
+- Encapsulation
 - Game loops
+- Event listeners
 - Collision detection
+- File handling
+- Reading and writing files
 - Lists and slicing
-- Screen updates
-- Random number generation
 - Object-oriented programming
 
 ---
@@ -84,10 +99,22 @@ With this project, I practiced how to organize a game into multiple files and cl
 I also learned how to:
 
 - Handle keyboard input
-- Create animations with Turtle
+- Create smooth animations with Turtle
 - Detect collisions
-- Manage game state
-- Structure a project using OOP principles
+- Save data to files
+- Read data from files
+- Implement a persistent high-score system
+- Structure projects using OOP principles
+
+---
+
+## 📈 Future Improvements
+
+- Add difficulty levels
+- Increase the snake speed over time
+- Add a start menu
+- Add sound effects
+- Add different themes and colors
 
 ---
 

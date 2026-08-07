@@ -1,7 +1,7 @@
 from turtle import Screen
 from snake import Snake
 from food import Food
-from score import Scoreboard
+from scoreboard import Scoreboard
 import time
 
 # Set up the game screen window
@@ -14,7 +14,7 @@ screen.tracer(0) # Turn off automatic screen updates to eliminate rendering lag
 # Instantiate core game objects
 snake = Snake()
 food = Food()
-score = Scoreboard()
+scoreboard = Scoreboard()
 
 # Bind keyboard inputs to snake directional methods
 screen.listen()
@@ -34,18 +34,18 @@ while game_is_on:
     if snake.head.distance(food) < 15:
         food.refresh()
         snake.extend()
-        score.increase_score()
+        scoreboard.increase_score()
 
     # Detect collision between the snake's head and the window boundaries
     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
-        game_is_on = False
-        score.game_over()
+       scoreboard.reset()
+       snake.reset()
 
     # Detect collision between the snake's head and its own body segments
     for segment in snake.segments[1:]:
         if snake.head.distance(segment) < 10:
-            game_is_on = False
-            score.game_over()
-            
+            scoreboard.reset()
+            snake.reset()
+        
 # Keep the window open until clicked
 screen.exitonclick()
