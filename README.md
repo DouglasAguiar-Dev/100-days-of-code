@@ -1,22 +1,22 @@
-# 🐍 100 Days of Code – Python Learning Journey
+# 🐍 100 Days of Code – Software Development Journey
 
 Welcome to my **100 Days of Code** repository! 🚀
 
 Hi, I'm **Douglas Aguiar**, a self-taught developer currently following **100 Days of Code: The Complete Python Pro Bootcamp** by Dr. Angela Yu.
 
-This repository documents my journey from beginner to developer through daily projects, challenges, mistakes, and improvements. Here, you'll find everything from simple console applications to more advanced projects involving object-oriented programming, game development, and software design principles.
+This repository documents my journey from beginner to software developer through daily projects, challenges, mistakes, and improvements. Here, you'll find everything from simple console applications to games, object-oriented projects, and automation tools.
 
-This is more than a collection of exercises—it's a public record of my progress, consistency, and growth as a future software engineer.
+My goal is not only to learn Python syntax but also to develop the mindset and habits required to become a professional software engineer.
 
 ---
 
 # 📈 Progress
 
-- ✅ Completed: **21 / 100 days**
+- ✅ Completed: **24 / 100 days**
 - 🐍 Main language: **Python**
 - 💻 IDE: **Visual Studio Code (VS Code)**
 - 📚 Course: **100 Days of Code – Dr. Angela Yu**
-- 🚀 Current focus: **Object-Oriented Programming, game development, and software architecture**
+- 🚀 Current focus: **Object-Oriented Programming, game development, file handling, and software architecture**
 
 ---
 
@@ -54,14 +54,16 @@ This is more than a collection of exercises—it's a public record of my progres
 │   ├── day17-quiz
 │   ├── day18-hirst-painting
 │   ├── day19-turtle-race
-│   ├── day20-snake-game
-│   └── day21-snake-game
+│   ├── day21-snake-game
+│   ├── day22-pong-game
+│   ├── day23-turtle-crossing
+│   └── day24-mail-merge
 │
 ├── .gitignore
 └── README.md
 ```
 
-Projects are organized by difficulty level to reflect my growth throughout the bootcamp.
+Projects are organized by difficulty level to showcase my progression throughout the bootcamp.
 
 ---
 
@@ -92,14 +94,23 @@ Projects are organized by difficulty level to reflect my growth throughout the b
 - Collision detection
 - Random number generation
 - Animation and screen updates
+- State management
+
+## File Handling and Automation
+
+- Reading and writing files
+- String manipulation
+- Data processing
+- File paths and directories
+- Automation scripts
 
 ## Software Development
 
 - Debugging and problem-solving
 - Code refactoring
-- Git and GitHub workflow
-- File organization
 - Clean code principles
+- Git and GitHub workflow
+- Project organization
 
 ---
 
@@ -107,45 +118,43 @@ Projects are organized by difficulty level to reflect my growth throughout the b
 
 | Day | Project | Main Concepts |
 | :---: | --- | --- |
-| 10 | Calculator | Functions and logic |
-| 11 | Blackjack | Game logic and conditionals |
-| 12 | Number Guessing Game | Loops and randomness |
-| 14 | Higher or Lower | Dictionaries and functions |
 | 15 | Coffee Machine | State management |
 | 16 | OOP Coffee Machine | Classes and objects |
-| 17 | Quiz Game | OOP and file organization |
+| 17 | Quiz Game | OOP and project organization |
 | 18 | Hirst Painting | Turtle graphics and modules |
-| 19 | Turtle Race | User input, loops, randomness |
-| 20 | Snake Game (Part 1) | Movement and OOP |
-| 21 | Snake Game (Part 2) | Inheritance and collision detection |
+| 19 | Turtle Race | User input and randomness |
+| 21 | Snake Game | Collision detection and inheritance |
+| 22 | Pong Game | OOP, game loops and physics |
+| 23 | Turtle Crossing | Dynamic difficulty and object management |
+| 24 | Mail Merge | File handling and automation |
 
 ---
 
 # 🧠 Latest Concepts Learned
 
-## Day 19 – Turtle Race
+### Day 22 — Pong Game
 
-- Turtle graphics
-- User input
-- Event handling
-- Randomization
-- Loops
-
-## Day 20 – Snake Game
-
-- Classes and objects
-- Game loops
-- Screen updates
-- Animation
-- Modular code organization
-
-## Day 21 – Snake Game
-
-- Inheritance
-- Collision detection
+- Multiple classes
+- Collision physics
 - Event listeners
-- Project architecture
-- Object-oriented programming
+- Real-time animation
+- Score management
+
+### Day 23 — Turtle Crossing
+
+- Dynamic difficulty
+- Object management
+- Collision detection
+- State management
+- Real-time game loops
+
+### Day 24 — Mail Merge
+
+- Reading text files
+- Writing files dynamically
+- String replacement
+- Automation with Python
+- Directory management
 
 ---
 
@@ -163,13 +172,27 @@ Through this challenge, I aim to:
 
 ---
 
-# 💡 Why I'm Doing This
+# 💡 My Learning Philosophy
 
-Learning to code isn't just about memorizing syntax—it's about learning how to think.
+Learning to code isn't about memorizing syntax—it's about learning how to think and solve problems.
 
-Every project in this repository represents a step forward. Some of my early code may be simple, and one day I'll probably look back at it and laugh, but that's exactly why I'm keeping everything here: to remember where I started and appreciate how much I've improved.
+Every project in this repository represents a step forward. Some of my early code may be simple, but that's exactly why I'm keeping everything here: to remember where I started and to measure my progress over time.
 
 Progress matters more than perfection.
+
+---
+
+# 🚀 Current Learning Focus
+
+I'm currently focused on:
+
+- Object-Oriented Programming (OOP)
+- Game development with Python
+- File handling and automation
+- Software architecture
+- Code organization and refactoring
+
+As the challenge progresses, I'll continue exploring APIs, databases, web development, automation, and software engineering principles.
 
 ---
 
@@ -185,6 +208,6 @@ All projects are part of my personal learning journey and are intended for educa
 
 **Douglas Aguiar**
 
-- GitHub: https://github.com/DouglasAguiar-Dev
+GitHub: https://github.com/DouglasAguiar-Dev
 
 ⭐ Feel free to explore the projects and follow my progress!
